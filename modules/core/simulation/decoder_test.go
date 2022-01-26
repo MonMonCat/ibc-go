@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/MonMonCat/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/MonMonCat/ibc-go/modules/core/04-channel/types"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
+	"github.com/MonMonCat/ibc-go/modules/core/simulation"
+	ibctmtypes "github.com/MonMonCat/ibc-go/modules/light-clients/07-tendermint/types"
+	"github.com/MonMonCat/ibc-go/testing/simapp"
 	"github.com/cosmos/cosmos-sdk/types/kv"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	connectiontypes "github.com/cosmos/ibc-go/v2/modules/core/03-connection/types"
-	channeltypes "github.com/cosmos/ibc-go/v2/modules/core/04-channel/types"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v2/modules/core/simulation"
-	ibctmtypes "github.com/cosmos/ibc-go/v2/modules/light-clients/07-tendermint/types"
-	"github.com/cosmos/ibc-go/v2/testing/simapp"
 )
 
 func TestDecodeStore(t *testing.T) {

@@ -5,15 +5,15 @@ import (
 
 	ics23 "github.com/confio/ics23/go"
 
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/MonMonCat/ibc-go/modules/core/23-commitment/types"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v2/modules/core/23-commitment/types"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 var _ exported.ClientState = (*ClientState)(nil)

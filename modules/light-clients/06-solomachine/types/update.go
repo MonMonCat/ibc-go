@@ -1,11 +1,11 @@
 package types
 
 import (
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 // CheckHeaderAndUpdateState checks if the provided header is valid and updates

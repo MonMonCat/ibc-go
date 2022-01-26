@@ -1,10 +1,10 @@
 package client
 
 import (
+	"github.com/MonMonCat/ibc-go/modules/core/02-client/keeper"
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
+	ibctmtypes "github.com/MonMonCat/ibc-go/modules/light-clients/07-tendermint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/ibc-go/v2/modules/core/02-client/keeper"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
-	ibctmtypes "github.com/cosmos/ibc-go/v2/modules/light-clients/07-tendermint/types"
 )
 
 // BeginBlocker updates an existing localhost client with the latest block height.

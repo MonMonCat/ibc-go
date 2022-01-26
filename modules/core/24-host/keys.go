@@ -3,7 +3,7 @@ package host
 import (
 	"fmt"
 
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 )
 
 const (

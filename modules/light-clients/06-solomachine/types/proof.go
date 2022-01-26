@@ -1,16 +1,16 @@
 package types
 
 import (
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/MonMonCat/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/MonMonCat/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/MonMonCat/ibc-go/modules/core/23-commitment/types"
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	connectiontypes "github.com/cosmos/ibc-go/v2/modules/core/03-connection/types"
-	channeltypes "github.com/cosmos/ibc-go/v2/modules/core/04-channel/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v2/modules/core/23-commitment/types"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 // VerifySignature verifies if the the provided public key generated the signature

@@ -3,8 +3,8 @@ package types
 import (
 	"strings"
 
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 var (

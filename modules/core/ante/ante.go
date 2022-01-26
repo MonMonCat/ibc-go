@@ -1,10 +1,10 @@
 package ante
 
 import (
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	channelkeeper "github.com/MonMonCat/ibc-go/modules/core/04-channel/keeper"
+	channeltypes "github.com/MonMonCat/ibc-go/modules/core/04-channel/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	channelkeeper "github.com/cosmos/ibc-go/v2/modules/core/04-channel/keeper"
-	channeltypes "github.com/cosmos/ibc-go/v2/modules/core/04-channel/types"
 )
 
 type AnteDecorator struct {

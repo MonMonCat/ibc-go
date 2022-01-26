@@ -7,15 +7,15 @@ import (
 	"fmt"
 	"math/rand"
 
+	clientsims "github.com/MonMonCat/ibc-go/modules/core/02-client/simulation"
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	connectionsims "github.com/MonMonCat/ibc-go/modules/core/03-connection/simulation"
+	connectiontypes "github.com/MonMonCat/ibc-go/modules/core/03-connection/types"
+	channelsims "github.com/MonMonCat/ibc-go/modules/core/04-channel/simulation"
+	channeltypes "github.com/MonMonCat/ibc-go/modules/core/04-channel/types"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
+	"github.com/MonMonCat/ibc-go/modules/core/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	clientsims "github.com/cosmos/ibc-go/v2/modules/core/02-client/simulation"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	connectionsims "github.com/cosmos/ibc-go/v2/modules/core/03-connection/simulation"
-	connectiontypes "github.com/cosmos/ibc-go/v2/modules/core/03-connection/types"
-	channelsims "github.com/cosmos/ibc-go/v2/modules/core/04-channel/simulation"
-	channeltypes "github.com/cosmos/ibc-go/v2/modules/core/04-channel/types"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v2/modules/core/types"
 )
 
 // Simulation parameter constants

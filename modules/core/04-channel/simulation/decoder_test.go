@@ -6,12 +6,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/MonMonCat/ibc-go/modules/core/04-channel/simulation"
+	"github.com/MonMonCat/ibc-go/modules/core/04-channel/types"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
+	"github.com/MonMonCat/ibc-go/testing/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/ibc-go/v2/modules/core/04-channel/simulation"
-	"github.com/cosmos/ibc-go/v2/modules/core/04-channel/types"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v2/testing/simapp"
 )
 
 func TestDecodeStore(t *testing.T) {

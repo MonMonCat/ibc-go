@@ -3,8 +3,8 @@ package simulation
 import (
 	"math/rand"
 
+	"github.com/MonMonCat/ibc-go/modules/core/02-client/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
 )
 
 // GenClientGenesis returns the default client genesis state.

@@ -6,12 +6,12 @@ import (
 
 	"github.com/spf13/cobra"
 
+	"github.com/MonMonCat/ibc-go/modules/core/02-client/client/utils"
+	"github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/cosmos/ibc-go/v2/modules/core/02-client/client/utils"
-	"github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
 )
 
 const (

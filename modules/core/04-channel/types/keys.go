@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
 )
 
 const (

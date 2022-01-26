@@ -12,22 +12,22 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
+	ibcclient "github.com/MonMonCat/ibc-go/modules/core/02-client"
+	clientkeeper "github.com/MonMonCat/ibc-go/modules/core/02-client/keeper"
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/MonMonCat/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/MonMonCat/ibc-go/modules/core/04-channel/types"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
+	"github.com/MonMonCat/ibc-go/modules/core/client/cli"
+	"github.com/MonMonCat/ibc-go/modules/core/keeper"
+	"github.com/MonMonCat/ibc-go/modules/core/simulation"
+	"github.com/MonMonCat/ibc-go/modules/core/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	ibcclient "github.com/cosmos/ibc-go/v2/modules/core/02-client"
-	clientkeeper "github.com/cosmos/ibc-go/v2/modules/core/02-client/keeper"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	connectiontypes "github.com/cosmos/ibc-go/v2/modules/core/03-connection/types"
-	channeltypes "github.com/cosmos/ibc-go/v2/modules/core/04-channel/types"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v2/modules/core/client/cli"
-	"github.com/cosmos/ibc-go/v2/modules/core/keeper"
-	"github.com/cosmos/ibc-go/v2/modules/core/simulation"
-	"github.com/cosmos/ibc-go/v2/modules/core/types"
 )
 
 var (

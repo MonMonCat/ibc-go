@@ -1,8 +1,8 @@
 package types
 
 import (
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 // ClientKeeper expected account IBC client keeper

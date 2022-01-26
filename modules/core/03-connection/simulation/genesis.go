@@ -3,8 +3,8 @@ package simulation
 import (
 	"math/rand"
 
+	"github.com/MonMonCat/ibc-go/modules/core/03-connection/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/ibc-go/v2/modules/core/03-connection/types"
 )
 
 // GenConnectionGenesis returns the default connection genesis state.

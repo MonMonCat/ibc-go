@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 var (

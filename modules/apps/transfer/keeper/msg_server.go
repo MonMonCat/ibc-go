@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
+	"github.com/MonMonCat/ibc-go/modules/apps/transfer/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/ibc-go/v2/modules/apps/transfer/types"
 )
 
 var _ types.MsgServer = Keeper{}

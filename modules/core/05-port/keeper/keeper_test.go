@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
+	"github.com/MonMonCat/ibc-go/modules/core/05-port/keeper"
+	"github.com/MonMonCat/ibc-go/testing/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/ibc-go/v2/modules/core/05-port/keeper"
-	"github.com/cosmos/ibc-go/v2/testing/simapp"
 )
 
 var (

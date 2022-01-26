@@ -3,8 +3,8 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
+	"github.com/MonMonCat/ibc-go/modules/core/02-client/types"
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
 )
 
 // GetQueryCmd returns the query commands for IBC clients

@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 var _ exported.Height = (*Height)(nil)

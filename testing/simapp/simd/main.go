@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
+	"github.com/MonMonCat/ibc-go/testing/simapp"
+	"github.com/MonMonCat/ibc-go/testing/simapp/simd/cmd"
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	"github.com/cosmos/ibc-go/v2/testing/simapp"
-	"github.com/cosmos/ibc-go/v2/testing/simapp/simd/cmd"
 )
 
 func main() {

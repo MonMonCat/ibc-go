@@ -1,10 +1,10 @@
 package types
 
 import (
+	commitmenttypes "github.com/MonMonCat/ibc-go/modules/core/23-commitment/types"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	commitmenttypes "github.com/cosmos/ibc-go/v2/modules/core/23-commitment/types"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 var _ exported.ConnectionI = (*ConnectionEnd)(nil)

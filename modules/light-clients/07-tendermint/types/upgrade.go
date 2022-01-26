@@ -3,13 +3,13 @@ package types
 import (
 	"fmt"
 
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/MonMonCat/ibc-go/modules/core/23-commitment/types"
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v2/modules/core/23-commitment/types"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 // VerifyUpgradeAndUpdateState checks if the upgraded client has been committed by the current client

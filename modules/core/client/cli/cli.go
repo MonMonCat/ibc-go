@@ -3,11 +3,11 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
+	ibcclient "github.com/MonMonCat/ibc-go/modules/core/02-client"
+	connection "github.com/MonMonCat/ibc-go/modules/core/03-connection"
+	channel "github.com/MonMonCat/ibc-go/modules/core/04-channel"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
 	"github.com/cosmos/cosmos-sdk/client"
-	ibcclient "github.com/cosmos/ibc-go/v2/modules/core/02-client"
-	connection "github.com/cosmos/ibc-go/v2/modules/core/03-connection"
-	channel "github.com/cosmos/ibc-go/v2/modules/core/04-channel"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
 )
 
 // GetTxCmd returns the transaction commands for this module

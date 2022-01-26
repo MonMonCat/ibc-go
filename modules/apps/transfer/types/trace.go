@@ -10,9 +10,9 @@ import (
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	tmtypes "github.com/tendermint/tendermint/types"
 
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
 )
 
 // ParseDenomTrace parses a string with the ibc prefix (denom trace) and the base denomination

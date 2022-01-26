@@ -1,11 +1,11 @@
 package types
 
 import (
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/msgservice"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 // RegisterInterfaces register the ibc interfaces submodule implementations to protobuf

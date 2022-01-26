@@ -1,8 +1,8 @@
 package keeper
 
 import (
+	"github.com/MonMonCat/ibc-go/modules/core/03-connection/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/ibc-go/v2/modules/core/03-connection/types"
 )
 
 // GetMaxExpectedTimePerBlock retrieves the maximum expected time per block from the paramstore

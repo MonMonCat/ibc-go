@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/ibc-go/v2/modules/core/04-channel/types"
+	"github.com/MonMonCat/ibc-go/modules/core/04-channel/types"
 )
 
 const (

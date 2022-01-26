@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"strings"
 
+	"github.com/MonMonCat/ibc-go/modules/apps/transfer/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/ibc-go/v2/modules/apps/transfer/types"
 )
 
 // Simulation parameter constants

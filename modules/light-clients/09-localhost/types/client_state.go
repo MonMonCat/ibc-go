@@ -8,14 +8,14 @@ import (
 
 	ics23 "github.com/confio/ics23/go"
 
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/MonMonCat/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/MonMonCat/ibc-go/modules/core/04-channel/types"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
+	"github.com/MonMonCat/ibc-go/modules/core/exported"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	connectiontypes "github.com/cosmos/ibc-go/v2/modules/core/03-connection/types"
-	channeltypes "github.com/cosmos/ibc-go/v2/modules/core/04-channel/types"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 )
 
 var _ exported.ClientState = (*ClientState)(nil)

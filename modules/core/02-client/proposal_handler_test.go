@@ -1,13 +1,13 @@
 package client_test
 
 import (
+	client "github.com/MonMonCat/ibc-go/modules/core/02-client"
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	ibctmtypes "github.com/MonMonCat/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/MonMonCat/ibc-go/testing"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	client "github.com/cosmos/ibc-go/v2/modules/core/02-client"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	ibctmtypes "github.com/cosmos/ibc-go/v2/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/cosmos/ibc-go/v2/testing"
 )
 
 func (suite *ClientTestSuite) TestNewClientUpdateProposalHandler() {

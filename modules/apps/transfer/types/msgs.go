@@ -3,10 +3,10 @@ package types
 import (
 	"strings"
 
+	clienttypes "github.com/MonMonCat/ibc-go/modules/core/02-client/types"
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	clienttypes "github.com/cosmos/ibc-go/v2/modules/core/02-client/types"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
 )
 
 // msg types

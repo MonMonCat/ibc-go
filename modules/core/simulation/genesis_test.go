@@ -7,13 +7,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	host "github.com/MonMonCat/ibc-go/modules/core/24-host"
+	"github.com/MonMonCat/ibc-go/modules/core/simulation"
+	"github.com/MonMonCat/ibc-go/modules/core/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	host "github.com/cosmos/ibc-go/v2/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v2/modules/core/simulation"
-	"github.com/cosmos/ibc-go/v2/modules/core/types"
 )
 
 // TestRandomizedGenState tests the normal scenario of applying RandomizedGenState.
