@@ -1,6 +1,6 @@
 go 1.15
 
-module github.com/cosmos/ibc-go/v2
+module github.com/cosmos/ibc-go
 
 replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 
@@ -23,12 +23,4 @@ require (
 	google.golang.org/genproto v0.0.0-20210828152312-66f60bf46e71
 	google.golang.org/grpc v1.42.0
 	google.golang.org/protobuf v1.27.1
-)
-
-require (
-	github.com/fsnotify/fsnotify v1.5.1 // indirect
-	github.com/golang/snappy v0.0.3 // indirect
-	github.com/mitchellh/mapstructure v1.4.2 // indirect
-	github.com/pelletier/go-toml v1.9.4 // indirect
-	gopkg.in/ini.v1 v1.63.2 // indirect
 )
